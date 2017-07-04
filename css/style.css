@@ -303,6 +303,7 @@ nav#nav-menu {
 }
 .workarea-text h1{color: #343A3B; text-align: center;}
 .workarea-text h3{color: #525356; text-align: center;}
+.workarea-text h2{color: #FFCC00; text-align: center;}
 .content-description{float: left; width: 100%; height: auto; position: relative; background-color: #fff;
 	                 -webkit-box-shadow: 0 0 10px 4px #e5e5e6;
                      -moz-box-shadow: 0 0 10px 4px #e5e5e6;

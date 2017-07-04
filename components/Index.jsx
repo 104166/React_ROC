@@ -85,6 +85,7 @@ export default class Index extends React.Component {
               <div className="workarea-text">
               <h3 className="text-center sec-header">Residential Mortgate Process</h3>
           <h4 className="text-center">Residential process collects information required to fast track the approval, while accomodating for expectations when required.</h4>
+                  <h2 className="text-center">Work in progress for this part</h2>
           </div>
               <div id="owl-demo" className="owl-carousel">
                   <div className="item">
