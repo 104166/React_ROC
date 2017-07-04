@@ -1,0 +1,19 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "This is the json file",
+  "main": "yes",
+  "scripts": {
+    "start": "webpack-dev-server --hot"
+  },
+  "author": "Prashant Jha",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^15.3.1",
+    "react-bootstrap": "^0.31.0",
+    "react-dom": "^15.3.1",
+    "react-router": "^4.1.1",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.15.0"
+  }
+}

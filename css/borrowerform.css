@@ -1,0 +1,101 @@
+
+/*******Borrower Form******/
+
+* {
+margin: 0;
+padding: 0;
+font-family: 'ubunturegular',sans-serif;
+}
+/*form styles*/
+#msform {
+width: 400px;
+margin: 50px auto;
+text-align: center;
+position: relative;
+}
+#msform fieldset {
+background: transparent;
+border: 0 none;
+border-radius: 3px;
+box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+box-sizing: border-box;
+width: 180%;
+margin: 0 -35%;
+/*stacking fieldsets above each other*/
+position: absolute;
+}
+/*Hide all except first fieldset*/
+#msform fieldset:not(:first-of-type) {
+display: none;
+}
+/*inputs*/
+#msform input, #msform textarea {
+padding: 15px;
+border: 1px solid #ccc;
+border-radius: 3px;
+margin-bottom: 10px;
+/*width: 100%;*/
+box-sizing: border-box;
+font-family: 'ubunturegular',sans-serif;
+color: #2C3E50;
+font-size: 13px;
+}
+/*buttons*/
+#msform .action-button {
+/*width: 100px;*/
+background: #3f75cc;
+font-weight: bold;
+color: white;
+border: 0 none;
+border-radius: 40px;
+cursor: pointer;
+padding: 8px 49px;
+margin: 26px 5px 5px 0;
+}
+#msform .action-button:hover, #msform .action-button:focus {
+box-shadow: 0 0 01px white, 0 0 0 1px #d8dae0;
+}
+/*headings*/
+.fs-title {
+font-size: 15px;
+text-transform: uppercase;
+color: #2C3E50;
+margin-bottom: 10px;
+}
+.fs-subtitle {
+font-weight: normal;
+font-size: 13px;
+color: #666;
+margin-bottom: 20px;
+}
+#msform fieldset > div {
+    background: #fff;
+    padding: 20px 30px;
+}
+#msform fieldset hr{background: #fff !important;}
+#msform input[type="text"] {
+    height: 18px;
+    width: 100px;
+}
+#msform fieldset label:first-child {
+    margin-left: 32px;
+}
+.custom-modal .modal-content{background-image: url('../images/bg_popup1.png');}
+.custom-modal .modal-content .modal-body {
+    text-align: center;
+    padding: 30px 10px 46px 10px;
+}
+.custom-modal .modal-content .close{opacity: 1;}
+.custom-modal .modal-content h4{color:#aaaaaa;}
+.custom-btn{
+    background: #3f75cc;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 40px;
+    cursor: pointer;
+    padding: 8px 49px;
+    margin: 26px 5px 5px 0;
+    display: inline-block;
+}
+.custom-modal .modal-content .modal-header{border-bottom: none;}
